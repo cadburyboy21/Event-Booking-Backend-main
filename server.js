@@ -24,7 +24,7 @@ app.use("/uploads", express.static("uploads"));
 // ✅ CORS configuration (local + production)
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://event-booking-beryl.vercel.app"
+  "https://event-booking-frontend-main.vercel.app"
 ];
 
 app.use(
